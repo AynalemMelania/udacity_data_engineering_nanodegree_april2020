@@ -65,5 +65,5 @@ pytho3 etl.py
  
 ## Testing Jupyter Notebook
 Run Cells:
-+->etl.ipynb shows every cell return
-+->test.ipynb shows several selects from tables
+- etl.ipynb shows every cell return
+- test.ipynb shows several selects from tables
