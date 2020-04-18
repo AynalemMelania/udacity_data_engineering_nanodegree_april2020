@@ -39,29 +39,29 @@ The main relationships are Many to Many:
 A user can listen more songs. A song can be listened by more users.
 
 ## Tables from database
-table songplays:
+- table songplays:
 songplay_id| start_time| user_id| artist_id| session_id| location| user_agent
-table song
+- table song
 song_id| artist_id| year| duration
-table artists:
+- table artists:
 artist_id| name| location| latitude| longitude
-table users:
+- table users:
 user_id| first_name| last_name| gender| level
-table time:
+- table time:
 star_time| hour| day| week| month| year| weekday
 
 ## Python files
--.ipynb test only a single json file and shows the result at every instruction
--.py test on multiples json files shows the result of the all database
+- .ipynb test only a single json file and shows the result at every instruction
+- .py test on multiples json files shows the result of the all database
 
 ## Builded ETL Processes 
 ETL process takes data from json files, extracts and transform the information into pandas objects 
 as multidimensional tables with different types of properties, after loads it to the database. 
 
 ## Testing Terminal
-python3 sql_queries.py
-python3 create_tables.py
-pytho3 etl.py
+- python3 sql_queries.py
+- python3 create_tables.py
+- pytho3 etl.py
  
 ## Testing Jupyter Notebook
 Run Cells:
