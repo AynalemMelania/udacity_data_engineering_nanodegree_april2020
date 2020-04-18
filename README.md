@@ -14,6 +14,7 @@ Python was chosen because it has many modules for manipulating the data.
 Here, pandas was used to process different types of files and a pandas object can storage multidimensional arrays.
 
 ## Example
+Json
 ```json
 {num_songs:1
 artist_id:"ARIK43K1187B9AE54C"
@@ -27,6 +28,7 @@ duration:307.3824
 year:1986}
 ``` 
 
+Python
 ```python
 filepath = '/home/workspace/data/song_data/A/B/C/TRABCRU128F423F449.json'
 df = pd.read_json(filepath, lines=True) 
