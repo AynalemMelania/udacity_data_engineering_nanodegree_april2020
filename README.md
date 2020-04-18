@@ -1,5 +1,6 @@
 # Project Spartkify with PostgreSQL
 
+## About
 Spartkify startup is a project of an app and a database with details about songs and users activities.
 A data engineer could analyse on this type of data the behaviour of users, the most listened songs, artists' work
 (for example how many songs they have in a year).
